@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PersonalityTest</string>
+    <string name="text_card1">Merupakan individu yang optimis serta selalu bersemangat. Sanguinis juga selalu kreatif dan bersikap ramah.</string>
+
+    <string name="text_card2">Seorang yang perfeksionis. Memiliki kepekaan yang tinggi. Dianggap sangat sensitif dan mudah berempati terhadap orang lain.</string>
+
+    <string name="text_card3">Memiliki kemauan keras dan juga sangat tegas. Cenderung melakukan pekerjaan dengan target dan sangat menyukai tantangan.</string>
+
+    <string name="text_card4">Merupakan individu yang optimis serta selalu bersemangat. Orang Sanguinis juga selalu kreatif dan ramah dengan orang lain.</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- test text-->
+    <string name="text1_test">Pilih pada bagian yang menurut kamu sesuai
+        dengan dirimu. <b>Selamat mengerjakan!</b></string>
+
+
+    <!--  Penjelasan Tipe kepribadian  -->
+
+    <string name="s_tipe"><b>Kepribadian anda adalah Sanguinis</b>\nOrang dengan tipe kepribadian sanguin cenderung tampak hidup, optimistis, memiliki emosi yang meluap-luap, dan sikap acuh tak acuh. Orang sanguinis dikenal mempunyai karakter yang menarik, emosional, suka bicara, menghidupkan suasana, antusias, ekspresif, periang, dan penuh semangat.</string>
+    <string name="s_referensi">Orang-orang dengan tipe ini cocok jika bekerja sebagai entertainer, karena pekerjaan ini akan membuat mereka menjadi sorotan penonton, dan mengharuskan mereka untuk selalu tampil antusias tidak peduli apa yang terjadi. Mereka dapat menyerap ide-ide, sehingga pekerjaan dengan kreativitas cocok untuk mereka, contohnya pekerjaan di bidang fashion, kuliner, travelling, dan marketing. Di bidang marketing, orang-orang dengan tipe sanguinis akan menghasilkan strategi-strategi baru untuk menjual produk dan kemajuan perusahaan. Bahkan mereka orang yang percaya diri untuk mengambil risiko.</string>
+    <string name="s_kelebihan"><b>Kelebihan : </b>Mudah bergaul, Optimis, Selalu gembira\n<b>Kekurangan : </b>Mudah Merasa Bosan, Sulit fokus, Implusif.</string>
+
+    <string name="k_tipe"><b>Kepribadian anda adalah Koleris</b>\nTipe kepribadian koleris adalah sebuah kepribadian yang dinamis, aktif, berkemauan kuat, mempunyai sifat keras dan tegas. Orang dengan tipe kepribadian koleris adalah pribadi yang berfokus pada tujuan, dan dalam hubungan sosial mereka umumnya berpikir praktis dan sangat blak-blakan.</string>
+    <string name="k_referensi">Pekerjaan yang cocok untuk tipe koleris adalah di bidang manajemen, teknologi, statistik, teknik, dan programming. Karena mereka dapat bertahan jika harus bekerja sendirian, dan mereka sangat berorientasi pada target.</string>
+    <string name="k_kelebihan"><b>Kelebihan : </b>Sangat praktis, memiliki jiwa kepemimpinan yang tinggi, bisa mengambil keputusan\n<b>Kekurangan : </b>Suka memaksa, Tidak suka di kritik, Manipulatif (dikenal sangat pintar memanipulasi orang lain.)</string>
+
+    <string name="m_tipe"><b>Kepribadian anda adalah Melankolis</b>\nKepribadian melankolis bisa digambarkan sebagai orang yang serius, tenang, dan tertutup, namun cerdas dan kritis dalam berpikir. Orang dengan tipe kepribadian melankolis adalah ahli di dalam perencanaan dan analisis.</string>
+    <string name="m_referensi">Pekerjaan yang cocok untuk melankolis adalah bidang administrasi, manajemen, akuntansi, dan pekerja sosial. Berpikir dari berbagai sudut pandang mampu membuat seorang melankolis memperhitungkan keakuratan dengan baik.</string>
+    <string name="m_kelebihan"><b>Kelebihan : </b>Seorang melankolis sering kali dikenal sebagai orang yang kreatif, memiliki motivasi yang tinggi\n<b>Kekurangan : </b>Mudah overthinking,Rentan terhadap perubahan mood ekstrem, Cenderung perfeksionis.</string>
+
+    <string name="p_tipe"><b>Kepribadian anda adalah Plegmatis</b>\nKepribadian seorang plegmatis tercermin dari sikapnya yang tidak suka berasumsi dan selalu mendahulukan kepentingan orang lain. Tak hanya itu, seorang plegmatis juga senang menjalin hubungan yang dekat dan akrab dengan orang lain, sehingga ia lebih suka menghindari konflik.</string>
+    <string name="p_referensi">kepribadian ini sangat cocok untuk bekerja sebagai guru, perawat, psikolog, atau pekerja sosial.</string>
+    <string name="p_kelebihan"><b>Kelebihan : </b>Dapat dipercaya, suka menolong, tenang dan bijaksana.\n<b>Kekurangan : </b>Selalu mengedepankan orang lain, kurang motivasi dan sulit dalam mengambil keputusan.</string>
+
+
+    <string name="s_k"><b>Kepribadian anda adalah dominasi Sanguinis - Koleris.</b>Orang tipe ini bisa memimpin dengan baik jika ditunjuk, namun dalam suasana santai, mereka cenderung melupakan bahwa sebenarnya mereka memiliki jiwa pemimpin. Orang tipe ini juga biasanya memiliki kemampuan bicara yang tidak hanya memotivasi, tapi juga membuat banyak orang tertawa dan terinspirasi. Sangat supel (mudah bergaul) dengan siapa saja. Dia tetap berwibawa namun terkesan tidak sombong. Orang dengan tipe ini biasanya mencari pendamping hidup yang kalem namun bisa diajak ceria, tidak pemurung, tidak membosankan, dan mudah diajak tertawa.</string>
+    <string name="s_m"><b>Kepribadian anda adalah dominasi Sanguinis - Melankolis.</b>Manusia seperti ini adalah tipe pendengar yang baik, oleh karena itu, mereka seringkali memiliki hubungan intrapersonal yang baik dengan sahabat-sahabatnya, sesuai untuk dijadikan teman curhat. Mereka adalah sahabat yang baik dan penuh pengertian. Mereka hanya terbuka pada orang-orang yang mereka percayai atau teman-teman dekat mereka. Orang dengan tipe kepribadian ini memiliki mood yang tidak stabil (berubah-ubah), alias moody.Orang denga tipe sanguinis-melankolis seperti ini membutuhkan pendamping hidup yang lebih bijaksana, tegas, berwibawa, dan mampu mendengarkan dengan ikhlas curhatan-curhatannya tanpa merasa bosan.</string>
+    <string name="s_p"><b>Kepribadian anda adalah dominasi Sanguinis - Plegmatis.</b>Orang bertipe sanguinis-phlegmatis biasanya terbuka, optimis, mampu menjalin hubungan baik dengan orang lain, dan disukai.Sisi sanguinis membuat dia kreatif, antusias, ramah, dan dapat menginspirasi orang lain. Sementara itu, sisi phlegmatisnya membuat dia berhati-hati dan sensitif terhadap perasaan orang lain.Orang tipe ini cenderung melihat ke dalam dirinya jika mengalami kejadian yang berpotensi mengganggu hubungannya dengan orang lain.tipe ini adalah teman yang paling menyenangkan dibandingkan tipe lain atau tipe kombinasi lain karena dia mudah bergaul, kreatif, mudah diajak bersenang-senang, penuh perhatian, dan suka membantu rekan-rekannya.</string>
+    <string name="k_m"><b>Kepribadian anda adalah dominasi Koleris - Melankolis.</b>Mereka yang mempunyai kombinasi koleris-melankolis adalah orang yang teliti, cermat, analitis, cepat dan berani. Tipe ini mampu melakukan analisis secara mendalam (sifat melankolis) namun sangat cepat (sifat koleris) sehingga hasil pekerjaannya jauh lebih produktif.Seseorang yang mempunyai tipe koleris-melankolis biasanya optimis mencapai tujuan, keras kepala, dan mudah marah. Kemampuan seorang koleris yang dapat mengambil keputusan secara cepat.</string>
+    <string name="k_p"><b>Kepribadian anda adalah dominasi Koleris - Plegmatis.</b></string>
+    <string name="m_p"><b>Kepribadian anda adalah dominasi Melankolis - Plegmatis.</b>Tipe ini merupakan kombinasi dua tipe yang sifatnya tertutup. Dari sisi penampilan, orang ini sangat pendiam. Mereka juga jarang mau memulai pembicaraan dengan orang lain dan lebih memilih menjadi pendengar.Melankolis-Phlegmatis ini sangat hebat dalam perencanaan jangka panjang, mengorganisasi, dan sangat memerhatikan hal-hal detail.Tipe orang ini justru merasa tertekan atau tidak nyaman berada dalam keramaian dan bersosialisasi dengan banyak orang.</string>
+    <string name="penjelasan">Aplikasi yang akan membantu mengetahui kepribadian kamu yang sebenarnya.Dengan mengetahui siapa diri kamu sebenarnya, kamu bisa menjadi orang yang lebih baik.aplikasi ini akan menunjukkan jenis kepribadian kamu lengkap dengan penjelasan mengenai referensi pekerjaan yang cocok dengan tipe kepribadian, kelebihan dan kekurangannya serta chart grafik dengan nilai presentasi dari masing-masing tipe kepribadian.</string>
+
+</resources>

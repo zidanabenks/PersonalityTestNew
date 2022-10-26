@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbars="none"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TestActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:elevation="@dimen/cardview_compat_inset_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Personality Test"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins"
+            android:layout_margin="20dp"
+            android:text="@string/text1_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="1. Saya adalah orang yang..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_1"
+            android:textColor="@color/primary"
+            android:text="Mudah berfikir positif"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_2"
+            android:textColor="@color/primary"
+            android:text="Menyukai tantangan"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_3"
+            android:textColor="@color/primary"
+            android:text="Mudah berfikir negatif"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_4"
+            android:textColor="@color/primary"
+            android:text="Lemah lembut"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="2. Pribadi saya lebih kearah...."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_5"
+            android:textColor="@color/primary"
+            android:text="Banyak mendengar dari pada berbicara"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:id="@+id/ch_6"
+            android:text="Meyakinkan orang lain dengan logika dan fakta"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_7"
+            android:textColor="@color/primary"
+            android:text="Mudah tersinggung dan sensitif"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_8"
+            android:textColor="@color/primary"
+            android:text="Menghindari segala bentuk kekacauan"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="3. Dalam menjalani kehidupan dan keseharian saya..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:id="@+id/ch_9"
+            android:text="Mudah bergaul"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_10"
+            android:textColor="@color/primary"
+            android:text="Berkemauan tegas dan kuat"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_11"
+            android:textColor="@color/primary"
+            android:text="Penuh pikiran dan suka analisa"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_12"
+            android:textColor="@color/primary"
+            android:text="Rendah hati"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="4. Yang orang lain tidak ketahui tentang saya...."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_13"
+            android:textColor="@color/primary"
+            android:text="Penuh semangat"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/ch_14"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:text="Sangat memerlukan perubahan"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_15"
+            android:textColor="@color/primary"
+            android:text="Selalu membuat rencana dan terjadwal"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/ch_16"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:text="Penurut dan toleran"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="5. Saya adalah orang yang..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/ch_17"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:text="Penuh rasa ingin tahu"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_18"
+            android:textColor="@color/primary"
+            android:text="Memiliki jiwa pemimpin"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/ch_19"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:text="Perfeksionis dan Idealis"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_20"
+            android:textColor="@color/primary"
+            android:text="Pemalu dan pendiam"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="6. Dalam segala situasi saya selalu...."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_21"
+            android:textColor="@color/primary"
+            android:text="Selalu terlihat ceria"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/ch_22"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:text="Melakukan sesuatu berdasarkan tujuan"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_23"
+            android:textColor="@color/primary"
+            android:text="Detail terhadap hal kecil dan besar"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/ch_24"
+            app:buttonTint="@color/primary"
+            android:textColor="@color/primary"
+            android:text="Penakut"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="7. Hubungan saya dengan orang lain..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_25"
+            android:textColor="@color/primary"
+            android:text="Senang melihat orang lain terhibur"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_26"
+            android:textColor="@color/primary"
+            android:text="Tidak bergantung orang lain"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_27"
+            android:textColor="@color/primary"
+            android:text="Suka memberikan keritikan"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:buttonTint="@color/primary"
+            android:id="@+id/ch_28"
+            android:textColor="@color/primary"
+            android:text="Sabar dan ramah"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Pilih salah satu yang cenderung pada kepribadian diri anda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="1. Saya lebih..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_1"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_1"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Cenderung pelupa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_2"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Cenderung keras kepala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="2. Satu hal tentang saya..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_2"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_3"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Sering kurang tertata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_4"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Mudah curiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="3. Dalam menanggapi sesuatu saya sangat..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_3"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_5"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Kompetitif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_6"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Pasif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="4. Dalam melakukan sesuatu hal, saya penuh..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_4"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_7"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Kreatifitas yang tinggi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_8"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Ketelitian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="5.Mana yang lebih sesuai dengan diri kamu?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_5"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_9"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Konsisten dengan tujuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_10"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Cenderung tidak berambisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="6. Dalam mengambil keputusan saya..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_6"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_11"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Sangat logis dan analitis dalam berfikir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_12"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Mudah setuju dengan keputusan atau pendapat orang lain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="7. Dalam menghadapi suatu masalah, saya cenderung..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_7"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_13"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Bereaksi negatif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_14"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Bersikap tenang dan bijaksana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_15"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Dapat membuat keputusan dengan cepat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_16"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Selalu berpikir positif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="8. Saya tidak terlalu senang apabila ..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_8"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_17"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Melakukan suatu kesalahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_18"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Berlama-lama dalam mengerjakan satu hal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_19"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Orang lain ikut campur dalam urusan saya "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_20"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Orang lain mengkritik saya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="9. Dalam bertindak, saya cenderung ..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_9"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_21"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Mengikuti apa yang dilakukan oleh kebanyakan orang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_22"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Cenderung kurang aktif dan kurang berinisiatif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_23"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Tidak terlalu memikirkan hal-hal yang tidak penting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_24"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Berfokus pada tujuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="10. Dalam memilih pakaian, saya lebih cenderung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rg_10"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rd_25"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Memakai pakaian berwarna cerah dengan beragam aksesoris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_26"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Mementingkan perpaduan warna dan gaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_27"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Tidak terlalu mementingkan model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rd_28"
+                android:textColor="@color/primary"
+                android:buttonTint="@color/primary"
+                android:text="Memilih pakaian yang sederhana dan nyaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_primary"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Simpan Jawaban"
+            android:id="@+id/btn_submit"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

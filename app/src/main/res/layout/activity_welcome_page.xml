@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Activity.WelcomePageActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/logo_animate"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Personality Test"
+            android:textSize="18sp" />
+
+        <TextView
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/primary"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:text="Selamat Datang di Aplikasi Kami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/primary"
+            android:textSize="14sp"
+            android:text="Silahkan login untuk masuk
+aplikasi atau regist untuk mendaftar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:background="@drawable/button_primary"
+            android:fontFamily="@font/poppins_bold"
+            android:text="SIGN IN"
+            android:onClick="to_login"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:onClick="to_regist"
+            android:background="@drawable/button_secondary"
+            android:fontFamily="@font/poppins_bold"
+            android:text="SIGN UP"
+            android:textColor="@color/primary"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

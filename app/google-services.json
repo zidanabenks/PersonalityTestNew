@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "826192800978",
+    "firebase_url": "https://personalitytestapps-dc4ed-default-rtdb.firebaseio.com",
+    "project_id": "personalitytestapps-dc4ed",
+    "storage_bucket": "personalitytestapps-dc4ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826192800978:android:61be6aaf96f0994869910b",
+        "android_client_info": {
+          "package_name": "com.example.personalitytestapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826192800978-k49ck76stpbb2sasgdm0ok2pbhkf2hg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCPhd6V4c7Wdq9kJuU4DJ_JKiB-f-OW9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826192800978-k49ck76stpbb2sasgdm0ok2pbhkf2hg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
